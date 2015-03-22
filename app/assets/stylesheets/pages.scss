@@ -9,6 +9,7 @@
 }
 .main{
 	background-image: image-url("bridge.jpg");
+	background-repeat: no-repeat;
 	height:400px;
 }
 .headline{
@@ -32,9 +33,20 @@
 	padding-top:100px;
 	text-align:center;
 }
-#simple-menu img{
-	height:15px;
+.secondaryAbout{
+	height:300px;
+	text-align: center;
+	padding-top:60px;
 }
-#simple-menu{
-	padding: 10px
+.secondaryAbout p{
+	padding: 30px 0;
+}
+.mainAbout{
+	background-image: image-url("beach.jpg");
+	height:400px;
+	text-align:center;
+}
+.mainAbout h2{
+	padding-top: 50px;
+	margin:0px;
 }

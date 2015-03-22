@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+
+#simple-menu{
+	position: absolute;
+	top: 10px;
+	padding-left:10px;
+}

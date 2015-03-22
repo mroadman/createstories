@@ -13,9 +13,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+	<div class="container-fluid">
+	<a id="simple-menu" href="#sidr"><%= image_tag "menu.png" %></a>
+	<div id="sidr">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="contact">Contact</a></li>
+		<ul>
+	</div>
 <%= yield %>
 
+</div>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
