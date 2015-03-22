@@ -1,0 +1,40 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	font-family: 'Oswald', arial
+}
+.container-fluid{
+	padding: 0px !important;
+}
+.main{
+	background-image: image-url("bridge.jpg");
+	height:400px;
+}
+.headline{
+	padding-top: 170px;
+	color: white;
+	padding-left: 400px;
+}
+.supporting{
+	height:300px;
+	text-align:center;
+}
+.supporting h3{
+	padding-top:100px
+}
+.secondary{
+	background-image: image-url("statue.jpg");
+	height:400px;
+}
+.discover{
+	height:300px;
+	padding-top:100px;
+	text-align:center;
+}
+#simple-menu img{
+	height:15px;
+}
+#simple-menu{
+	padding: 10px
+}
