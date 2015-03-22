@@ -1,9 +1,9 @@
 <div class="mainContact">
 	<h2> Get the latest updates from Stories</h2>
 
-	          <%= form_for(@signup) do |f| %>
-	          <%= f.text_field :firstname, :placeholder =>"First name" %>
-              <%= f.text_field :email, :placeholder => "Email" %>
-              <%= f.submit "Join", :class => "btn" %>
-            <% end %>
+	  <%= form_for(@signup) do |f| %>
+	  	<%= f.text_field :firstname, :placeholder =>"First name" %>
+	 	<%= f.text_field :email, :placeholder => "Email" %>
+	  	<%= f.submit "Join", :class => "btn" %>
+       <% end %>
 </div>
